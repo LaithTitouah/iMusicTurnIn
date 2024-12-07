@@ -1,0 +1,2 @@
+This is my iMusic website the uses the itunes api in order to find any albums that are made or attributed to a certain artist. When you put an artists name into the input box and then press submit the website will then fetch the information associated with that name and represent it as a list. Then after selecting an album you can click on it and when you click on it it will fetch the songs in that album.
+ here is where is applied: https://3m9fvc.csb.app/

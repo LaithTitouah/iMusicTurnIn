@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#535f69, #a7bbcb, #535f69);
+  background-size: cover;
+}
+
+h2 {
+  color: white;
+  font-family: sans-serif;
+}
+h3 {
+  color: white;
+  font-family: sans-serif;
+}
+.App {
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  align-items: center;
+}
+article {
+  background-color: white;
+  box-shadow: 5px 5px 5px #535f69;
+  border: 5px, solid, #a7bbcb;
+  border-radius: 20px;
+  max-width: 700px;
+  min-width: 300px;
+  font-family: sans-serif;
+}
+
+.album.list,
+song.list {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+.song.list {
+  padding-left: 20px;
+  margin: 0;
+}
+.album-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  border: 5px, solid, black;
+  margin: 10px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+}
+input {
+  border: 2px, solid, #a7bbcb;
+  width: 300px;
+  box-shadow: 2px 2px 2px#8ca0b1;
+  padding: 5px;
+}
+form {
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #a7bbcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8ca0b1;
+}
+input:hover {
+  box-shadow: 2px 5px 5px #535f69;
+  border: 3px, solid, #a7bbcb;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1rems;
+}
